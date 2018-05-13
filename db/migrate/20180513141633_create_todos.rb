@@ -3,8 +3,7 @@ class CreateTodos < ActiveRecord::Migration
     create_table :todos do |t|
       t.string :description
       t.integer :pomodoro_estimate
-      t.boo :complete
-      t.string :lean
+      t.boolean :complete
 
       t.timestamps null: false
     end

@@ -3,11 +3,9 @@
 one:
   description: MyString
   pomodoro_estimate: 1
-  complete: 
-  lean: MyString
+  complete: false
 
 two:
   description: MyString
   pomodoro_estimate: 1
-  complete: 
-  lean: MyString
+  complete: false
