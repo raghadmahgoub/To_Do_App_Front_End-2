@@ -4,14 +4,17 @@ class TodoController < ApplicationController
     def show
         todo_id= params[:id]
         if todo_id== '1'
-            @description="do homework"
-            @title="watch infinity war"
+            @description="with the family on a weekend"
+            @title="have a movie night"
         elsif todo_id =='2'
          @description="on a saturday"
          @title="go to fulton mall"
         elsif todo_id =='3'
-         @description="an iphone 8 plus at the apple store"
-         @title="buy a new phone"
+         @description="new clothes and makeup"
+         @title="go shopping"
+         elsif todo_id =='4'
+         @description="for all classes, complete essays and hw"
+         @title="complete assignments"
         end
     end
 end
